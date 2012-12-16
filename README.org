@@ -1,0 +1,17 @@
+* Sudoku
+Sudoku is a Sudoku solution finder.  Currently it outputs only the
+first solution found.
+
+** Compiling & Installation
+Just run =make= and =make install=; then you can find =sudoku= in the
+=bin= directory, which is all you need to run the program.
+
+** Running
+When there are no arguments specified, the program will read from
+standard input and display on standard output.  Using =-i filename=
+causes the program to read the the file named =filename= as input, and
+=-o filename= does the similar with the output.
+
+The input should be a 9-by-9 matrix, where the empty places should be
+represented by 0.  The program will generate the result also as a
+matrix, in which all the 0 shall be substituted.
